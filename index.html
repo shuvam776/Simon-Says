@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link href="./src/output.css" rel="stylesheet">
+    
+
+</head>
+
+<body id="body" class="bg-gray-800">
+    <h1 
+        class=" text-3xl flex flex-wrap items-center m-0 justify-center sm:w-full bg-blue-950 text-amber-600 h-30"><p class="text-6xl font-serif shadow-2xs shadow-black">
+        Simon Says</p>
+    </h1>
+    <main class=" items-center flex flex-wrap justify-center w-full h-full relative">
+        <div id="choicelist" class=" top-20 p-3 gap-16 m-3 grid grid-cols-2 relative ">
+            <div id="red"
+                class="flex items-center m-2   justify-center  relative border-2 rounded-[10px]  bg-red-700  hover:cursor-pointer transition-all ease-in-out h-40 w-40 bix animate-spin">
+                
+            </div>
+            <div id="green"
+                class="flex items-center bg-green-500 justify-center  relative border-2 rounded-[10px] hover:border-4 hover:cursor-pointer transition-all ease-in-out  h-40 w-40   bix animate-spin">
+                
+            </div>
+            <div id="blue"
+                class="flex  bg-blue-500 items-center justify-center relative border-2 rounded-[10px]  hover:border-4 hover:cursor-pointer transition-all ease-in-out  h-40 w-40   bix animate-spin">
+                </div>
+            <div id="yellow"
+                class="flex bg-yellow-500 items-center  justify-center relative border-2 rounded-[10px]  hover:border-4 hover:cursor-pointer transition-all ease-in-out  h-40 w-40   bix animate-spin">
+                
+            </div>
+        </div>
+        <div id="scorediv" class="absolute items-center justify-center p-4 rounded-2xl text-4xl border-2 text-black bg-purple-500 font-serif h-30 w-auto "></div>
+
+        </div>
+</main>
+
+<footer>
+        <div class="w-full flex items-center justify-center p-6 relative top-30">
+            <button id="buttonstart"
+                class="bg-black h-40 w-60"><p class="text-blue-700 text-2xl bg-black p-1 m-1 rounded-lg h-15 w-50 flex items-center justify-center relative left-5">Start the game</p></button>
+            
+        </div>
+        
+
+</footer>
+
+    <script src="/script.js"></script> 
+</body>
+
+</html>

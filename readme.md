@@ -36,9 +36,3 @@ A simple Simon Says game built with **JavaScript** and **HTML/TAILWINDCSS**, whe
 
 ---
 
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/shuvam776/simonsays.git

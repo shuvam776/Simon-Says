@@ -26,17 +26,7 @@ A simple Simon Says game built with **JavaScript** and **HTML/TAILWINDCSS**, whe
 
 ---
 
-## Code Structure
 
-- **HTML:** Contains the four color buttons and a Start button.
-- **JavaScript:**
-  - `nextRound()` → Adds a new random color to the sequence and resets the player index.
-  - `clickHandler()` → Validates each player click against the sequence.
-  - `playerIndex` → Tracks the current step the player is on.
-  - `showLose()` → Handles game over logic.
-- **CSS:** Optional styling for buttons and layout.
-
----
 
 ## Technologies Used
 
@@ -46,9 +36,3 @@ A simple Simon Says game built with **JavaScript** and **HTML/TAILWINDCSS**, whe
 
 ---
 
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/shuvam776/simonsays.git
